@@ -12,6 +12,9 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <copyright>Copyright 2016</copyright>
+    <contentFiles>
+      <files include="log4net.config" buildAction="none" copyToOutput="true" />
+    </contentFiles>
   </metadata>
   <files>
     <file src="log4net.config" target="content" />

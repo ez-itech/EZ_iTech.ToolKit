@@ -10,6 +10,7 @@ namespace EZ_iTech.ToolKit {
     /// HTTP Helper
     /// </summary>
     public class HTTPHelper {
+
         /// <summary>
         /// Default userAgent
         /// </summary>

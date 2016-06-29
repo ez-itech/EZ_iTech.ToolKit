@@ -51,8 +51,12 @@
     <Compile Include="ServiceInstaller.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="EZ_iTech.ToolKit.nuspec" />
-    <None Include="log4net.config" />
+    <None Include="EZ_iTech.ToolKit.nuspec">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
